@@ -9,10 +9,13 @@ I relied hevily on **AzureRT** (https://github.com/mgeeky/AzureRT), it had a few
 ### Custome Tools
 ##### Stand-alone
 Loot-VM.ps1
+
 Various post-foothold checks. PRT, AzureADJoin, User Data, PS console history & more.
 
 findADFS.ps1
+
 Checks for ADFS instance in the domain.
+
 (*Never got the chance to test this tool and probably never will since I'm already done with the exam.*)
 
 ---
