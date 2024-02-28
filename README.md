@@ -14,7 +14,7 @@ Various post-foothold checks. PRT, AzureADJoin, User Data, PS console history & 
 
 ![Alt text](https://raw.githubusercontent.com/init5-SF/CARTP-Scripts/main/image.png)
 
-
+-
 
 findADFS.ps1
 
@@ -31,11 +31,15 @@ Connects both Az and Azure AD using provided credentials
 
 `Connect-All -UserName 'admin@foo.onmicrosoft.com' -Password 'Pa$$w0rd'`
 
+-
+
 Evil-Winrm
 
 You already know what this does x)
 
 `Evil-Winrm -UserName admin -Password 'Pa$$w0rd' -TargetIP 10.10.10.10 -TargetHostName ADConnectVM`
+
+-
 
 Whois
 
@@ -43,9 +47,13 @@ Enumerates a given user and lists his details. i.e. Group memeberships, Role ass
 
 `whois 'admin@foo.onmicrosoft.com'`
 
+-
+
 List-DeviceOwners
 
 Loops all readable users and lists who owns what - no parameters needed.
+
+-
 
 `List-DeviceOwners`
 
