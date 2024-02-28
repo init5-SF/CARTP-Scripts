@@ -12,6 +12,10 @@ Loot-VM.ps1
 
 Various post-foothold checks. PRT, AzureADJoin, User Data, PS console history & more.
 
+![Alt text](https://raw.githubusercontent.com/init5-SF/CARTP-Scripts/main/image.png)
+
+
+
 findADFS.ps1
 
 Checks for ADFS instance in the domain.
