@@ -53,8 +53,6 @@ List-DeviceOwners
 
 Loops all readable users and lists who owns what - no parameters needed.
 
-_
-
 `List-DeviceOwners`
 
 </eof>
