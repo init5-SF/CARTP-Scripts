@@ -20,18 +20,22 @@ Checks for ADFS instance in the domain.
 ##### Included in AzureRT.ps1
 Connect-All
 Connects both Az and Azure AD using provided credentials
+
 `Connect-All -UserName 'admin@foo.onmicrosoft.com' -Password 'Pa$$w0rd'`
 
 Evil-Winrm
 You already know what this does x)
+
 `Evil-Winrm -UserName admin -Password 'Pa$$w0rd' -TargetIP 10.10.10.10 -TargetHostName ADConnectVM`
 
 Whois
 Enumerates a given user and lists his details. i.e. Group memeberships, Role assignment, Admin Units, etc.
+
 `whois 'admin@foo.onmicrosoft.com'`
 
 List-DeviceOwners
 Loops all readable users and lists who owns what - no parameters needed.
+
 `List-DeviceOwners`
 
 </eof>
